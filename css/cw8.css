@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none
+}
+.top-line{
+    padding: 17px 0 19px;
+    background: #EFEFEF;
+}
+
+.top-menu{
+    text-align: center;
+
+}
+.top-line-link{
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin-right: 30px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.second-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+}
+.header-logo svg{
+    margin-right: 5px;
+}
+.header-btn{
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #fff;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 13px 10px;
+    display: inline-block;
+}
+
+.header-menu{
+    text-align: center;
+    margin-top: 31px;
+}
+.header-link{
+    line-height: 19px;
+    color: black;
+    margin-right: 31px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.goods{
+    padding: 86px 0 35px;
+}
+.goods-title{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 38px;
+}
+.goods-box{
+    padding: 25px 30px;
+    text-align: center;
+}
+.goods-desc{
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+.goods-price{
+    fout-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+.goods-btn{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    background: #F13C6E;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 9px 40px;
+}
+.subscribe{
+    padding-bottom: 63px;
+}
+.subscribe-box{
+    background: #F13C6E;
+    padding: 35px 0 35px 40px;
+}
+.subscribe-title{
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+.subscribe-desc{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 25px 0;
+}
+.subscribe-email {
+    border-radius: 30px;
+    height: 35px;
+    border: none;
+    width: 225px;
+    padding-left: 25px;
+}
+.subscribe-btn{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 0 29px;
+    height: 35px;
+    display: inline-block;
+    background:  #F13C6E;
+    border-radius: 30px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.sale{
+    padding: 185px;
+    background: url("../images/Rectangle 2.png");
+}
+.sale-titl e{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+
+}
+.sale-desc{
+    margin: 48px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.sale-btn{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 12px 27px;
+    display: inline-block;
+}
+.footer{
+    padding-top: 66px;
+}
+.footer-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 30px;
+}
+.footer-menu{
+    margin-top: 25px
+}
+.footer-link{
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    margin-bottom: 15px;
+}
+.footer-container {
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-line{
+     border-bottom: 1px solid #EFEFEF;;
+}
+.footer-socials{
+    display: flex;
+}
+.footer-social-icon{
+    border: 2px solid #F13C6E;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.footer-social-icon:not(:last-child){
+    margin-right: 20px;
+}
+.footer-contacts{
+    display: flex;
+}
+.footer-numbers{
+    margin-right: 20px;
+}
+.footer-btn{
+    font-size: 14px;
+    line-height: 16px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 13px 27px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
