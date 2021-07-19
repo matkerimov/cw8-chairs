@@ -112,6 +112,7 @@ ul{
     border-radius: 30px;
     display: inline-block;
     padding: 9px 40px;
+
 }
 .subscribe{
     padding-bottom: 63px;
@@ -140,12 +141,11 @@ ul{
 }
 .subscribe-btn{
     font-size: 14px;
-    line-height: 16px;
+    line-height: 13px;
     color: #FFFFFF;
-    padding: 0 29px;
-    height: 35px;
+    padding: 9px 29px;
     display: inline-block;
-    background:  #F13C6E;
+    border: 2px solid #FFFFFF;
     border-radius: 30px;
 }
 .col-6{
@@ -154,10 +154,10 @@ ul{
     box-sizing: border-box;
 }
 .sale{
-    padding: 185px;
+    padding: 171px;
     background: url("../images/Rectangle 2.png");
 }
-.sale-titl e{
+.sale-title{
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
@@ -185,6 +185,13 @@ ul{
 .footer{
     padding-top: 66px;
 }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 143px;
+    margin: 38px 0 ;
+}
 .footer-title{
     font-weight: 500;
     font-size: 16px;
@@ -201,13 +208,9 @@ ul{
     color: #828282;
     margin-bottom: 15px;
 }
-.footer-container {
-display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .footer-line{
-     border-bottom: 1px solid #EFEFEF;;
+     border-top: 1px solid #EFEFEF;;
+    margin: 51px 0 ;
 }
 .footer-socials{
     display: flex;
@@ -240,6 +243,16 @@ display: flex;
     border-radius: 40px;
     padding: 13px 27px;
     display: inline-block;
+}
+.footer-end{
+    background: #EFEFEF;
+}
+.end-title{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
 }
 
 
